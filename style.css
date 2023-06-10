@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  min-width: 320px;
+  background-color: #daa520;
+}
+
+h1 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+small {
+  display: block;
+  text-align: center;
+}
+
+form {
+  width: 320px;
+  margin: auto;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid #5d460e;
+  border-radius: 0.3rem;
+}
+
+input,
+select {
+  padding: 0.3rem;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+
+.result {
+  padding: 0.2rem;
+  background-color: #ffffff;
+}
